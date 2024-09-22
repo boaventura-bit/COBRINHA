@@ -19,10 +19,37 @@ Este é um projeto simples do **Jogo da Cobrinha** implementado em Python usando
 - **Sistema de Pontuação**: Mostra a pontuação atual e o recorde.
 - **Registro de Recorde**: O recorde é salvo mesmo após o jogo ser fechado e exibido na próxima vez que o jogo for iniciado.
 
-## Requisitos 🛠️
+## 🛠️ Requisitos Mínimos de Hardware
 
-- Python 3.6 ou superior
-- Biblioteca Pygame
+Para rodar o jogo da cobrinha simples em Python com Pygame, os seguintes requisitos são recomendados:
+
+1. **🖥️ Processador**:
+   - Intel Core i3 (ou equivalente AMD) com frequência mínima de 1 GHz.
+
+2. **💾 Memória RAM**:
+   - 2 GB de RAM.
+
+3. **🎮 Placa Gráfica**:
+   - Placa gráfica integrada (como Intel HD Graphics) ou qualquer placa gráfica dedicada com suporte para OpenGL 2.0.
+
+4. **💽 Armazenamento**:
+   - 50 MB de espaço livre em disco (para o jogo e bibliotecas).
+
+5. **💻 Sistema Operacional**:
+   - Windows 7 ou superior
+   - macOS 10.12 (Sierra) ou superior
+   - Qualquer distribuição Linux recente (Ubuntu, Fedora, etc.)
+
+6. **🐍 Python**:
+   - Python 3.6 ou superior instalado.
+
+7. **🛠️ Pygame**:
+   - Pygame 2.0 ou superior instalado.
+
+### ⚠️ Considerações Adicionais
+
+- **🖥️ Resolução**: Tela de pelo menos 800x600 pixels.
+- **🌐 Conexão com a Internet**: Necessária apenas para baixar as dependências.
 
 ### Instalação de Dependências
 
