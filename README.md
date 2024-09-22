@@ -67,7 +67,7 @@ Baixe o instalador do jogo através do seguinte link:
 
 ## Licença 📄
 
-Este projeto é de código aberto e está licenciado sob a [MIT License](LICENSE).
+Este projeto é de código aberto e está licenciado sob a [MIT License](https://github.com/boaventura-bit/COBRINHA/blob/main/LICENSE).
 
 ## Contribuições 🤝
 
