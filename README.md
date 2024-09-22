@@ -37,8 +37,6 @@ Para rodar o jogo da cobrinha simples em Python com Pygame, os seguintes requisi
 
 5. **💻 Sistema Operacional**:
    - Windows 7 ou superior
-   - macOS 10.12 (Sierra) ou superior
-   - Qualquer distribuição Linux recente (Ubuntu, Fedora, etc.)
 
 6. **🐍 Python**:
    - Python 3.6 ou superior instalado.
