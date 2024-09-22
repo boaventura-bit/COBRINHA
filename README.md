@@ -61,7 +61,7 @@ O executável será gerado na pasta `dist/`.
 ## Instalação do Jogo 💻
 
 Baixe o instalador do jogo através do seguinte link:
-[Link para o instalador]([adicione_o_link_aqui](https://www.mediafire.com/file/dcpdsg2fxj4xyvv/snake_installer.exe/file)).
+[Link para o instalador](https://www.mediafire.com/file/dcpdsg2fxj4xyvv/snake_installer.exe/file)
 
 **Observação:** O ícone do jogo deve ser adicionado através da propriedade do atalho na área de trabalho.
 
@@ -76,6 +76,3 @@ Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões, si
 ---
 
 Feito com ❤️ e Python!
-```
-
-Se precisar de mais alguma alteração, é só avisar!
