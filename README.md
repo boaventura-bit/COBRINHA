@@ -1,6 +1,3 @@
-Aqui está o seu **README.md** atualizado com o espaço para o link do instalador e a observação sobre o ícone:
-
-```markdown
 # Jogo da Cobrinha 🐍
 
 Este é um projeto simples do **Jogo da Cobrinha** implementado em Python usando a biblioteca Pygame. O objetivo do jogo é controlar a cobrinha para comer a comida, crescer o máximo possível, e evitar colidir com as bordas ou com o próprio corpo.
