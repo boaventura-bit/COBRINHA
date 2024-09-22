@@ -1,3 +1,6 @@
+Aqui está o seu **README.md** atualizado com o espaço para o link do instalador e a observação sobre o ícone:
+
+```markdown
 # Jogo da Cobrinha 🐍
 
 Este é um projeto simples do **Jogo da Cobrinha** implementado em Python usando a biblioteca Pygame. O objetivo do jogo é controlar a cobrinha para comer a comida, crescer o máximo possível, e evitar colidir com as bordas ou com o próprio corpo.
@@ -58,6 +61,13 @@ Caso queira transformar o jogo em um arquivo executável `.exe`, siga os passos:
 
 O executável será gerado na pasta `dist/`.
 
+## Instalação do Jogo 💻
+
+Baixe o instalador do jogo através do seguinte link:
+[Link para o instalador]([https://www.mediafire.com/file/dcpdsg2fxj4xyvv/snake_installer.exe/file]).
+
+**Observação:** O ícone do jogo deve ser adicionado através da propriedade do atalho na área de trabalho.
+
 ## Licença 📄
 
 Este projeto é de código aberto e está licenciado sob a [MIT License](LICENSE).
@@ -71,4 +81,4 @@ Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões, si
 Feito com ❤️ e Python!
 ```
 
-Você pode personalizar o arquivo conforme desejar e incluir mais informações, como imagens, exemplos de gameplay ou até instruções mais detalhadas.
+Se precisar de mais alguma alteração, é só avisar!
