@@ -4,41 +4,49 @@ import random
 import os
 import sys
 
-# Inicializando o Pygame
 pygame.init()
 
-# Definindo cores (constantes)
+# Paleta de cores
 BRANCO = (255, 255, 255)
 PRETO = (0, 0, 0)
 VERMELHO = (213, 50, 80)
 LARANJA = (255, 165, 0)
 
-# Dimensões da tela (constantes)
+# Tamanho da tela
 LARGURA_TELA = 600
 ALTURA_TELA = 400
 
-# Tamanho do bloco e velocidade (constantes)
+# Tamanho e velocidade
 TAMANHO_BLOCO = 10
 VELOCIDADE = 9
 
-# Criando a tela
+# Tela de jogo
 tela = pygame.display.set_mode((LARGURA_TELA, ALTURA_TELA))
 pygame.display.set_caption('Jogo da Cobrinha')
 
-# Caminho para a imagem de fundo
+# Local bkg e ícone
 if getattr(sys, 'frozen', False):
     caminho_imagem = os.path.join(sys._MEIPASS, "floresta_8bits.png")
+    caminho_icon = os.path.join(sys._MEIPASS, "icon.ico") 
 else:
     caminho_imagem = "floresta_8bits.png"
+    caminho_icon = "icon.ico" 
 
-# Carregando a imagem de fundo
+# Carregando o bkg
 background = pygame.image.load(caminho_imagem)
 background = pygame.transform.scale(background, (LARGURA_TELA, ALTURA_TELA))
+
+# Carrega e define o ícone da janela
+try:
+    icon = pygame.image.load(caminho_icon)
+    pygame.display.set_icon(icon)
+except pygame.error as e:
+    print(f"Não foi possível carregar o ícone: {e}")
 
 # Arquivo de recorde
 ARQUIVO_RECORDE = "recorde.txt"
 
-# Função para carregar o recorde
+# Carregar o recorde
 def carregar_recorde():
     if os.path.exists(ARQUIVO_RECORDE):
         with open(ARQUIVO_RECORDE, 'r') as f:
@@ -48,15 +56,15 @@ def carregar_recorde():
                 return 0
     return 0
 
-# Função para salvar o recorde
+# Salva o recorde
 def salvar_recorde(novo_recorde):
     with open(ARQUIVO_RECORDE, 'w') as f:
         f.write(str(novo_recorde))
 
-# Inicializando o recorde
+# Inicia o recorde
 recorde = carregar_recorde()
 
-# Função para mostrar a pontuação e o recorde
+# Mostra pontuação e o recorde
 def sua_pontuacao(score, recorde):
     fonte = pygame.font.SysFont('arial', 20)
     valor_pontuacao = fonte.render("Pontuação: " + str(score), True, PRETO)
@@ -64,7 +72,7 @@ def sua_pontuacao(score, recorde):
     tela.blit(valor_pontuacao, [0, 0])
     tela.blit(valor_recorde, [0, 30])
 
-# Função principal do jogo
+# Função principal
 def jogo():
     global recorde
     fim_jogo = False
@@ -162,6 +170,5 @@ def jogo():
     pygame.quit()
     sys.exit()
 
-# Iniciar o jogo
+# rodar o jogo
 jogo()
-
